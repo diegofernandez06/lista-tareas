@@ -34,7 +34,7 @@ const FormTareas = () => {
             onChange={(e) => setTarea(e.target.value.trimStart())}
             value={tarea}
           />
-          <Button variant="primary">Enviar</Button>
+          <Button variant="primary" type="submit ">Enviar</Button>
         </Form.Group>
       </Form>
       <ListaTareas arregloTareas={listaTareas} borrarTarea={borrarTarea}></ListaTareas>
